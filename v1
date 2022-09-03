@@ -1,0 +1,5 @@
+local player = game.Players.LocalPlayer.Character
+if player:findFirstChild("Group") then
+    player.Group.Join.Texture = "https://www.roblox.com/groups/8068202/Da-Hood-Stars#!/about"
+    player.Group.Rank = "「 Star Player 」"
+end
